@@ -1,47 +1,33 @@
- .body{
-	background-color: #05f925;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;}
+*{
+    padding: 0;
+    margin: 0;
+}
 
-    .form{
-        background-color: #158924;
-        padding: 20px;
-        border-radius: 8px;
-        width: 100%;
-        max-width: 400px;}
 
-    .bild{
-        margin-bottom: 15px;}
-
-    .etikett{
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;}
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box; /* Inkluderar padding och border i elementets totala bredd */
-    }
-
- .knapp{[type="submit"] 
-        background-color: #04AA6D;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        width: 100%;
-        font-size: 16px;
-    }
-
-   .knapp{
-		[type="submit"]:hover 
-    opacity: 0.8;
-    }
+.body{
+    height: 100vh;
+    background: linear-gradient(
+    to right,
+    rgb(0, 208, 255) 0%,
+    rgb(0, 208, 255) 52%,
+    #3940ff 52%,
+    #3940ff 100%);
+    border: 30px solid rgb(4, 0, 255);
+}
+.form{
+    margin-left: 100px;}
+.titel{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;}
+.text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+.anka{
+  display: flex;
+  justify-content: center;
+}
