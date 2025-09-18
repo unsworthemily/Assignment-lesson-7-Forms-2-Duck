@@ -8,59 +8,59 @@
         <link rel="stylesheet" href="style/index.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
+    
     <body class="body">
-        <form class="form">
+
+        <form class="form" autocomplete="off">
+            
             <h1 class="titel">
                 Medlemsbrev
             </h1>
-            
+
             <h2 class="h2">
-                Vill du veta mer om oss, signa up för vårt medlemsbrev!
+                Vill du veta mer om oss, signa up för vårt medlemsbrev?
             </h2>
-               
-            <label for="text">Förnamn</label>
-            <input type="text" placeholder="Your name">
-        
-                
-            <label for="text">Efternamn</label>
-            <input type="text" placeholder="Your surname">
             
+            <section class="middle">
                 
-            <label for="text">Gatuadress</label>
-            <input type="text" placeholder="Your adress">
-              
-               
-                
-            <label for="number">Postadress</label>   
-            <input type="number" placeholder="Your postaladress"> 
-             
+                <div>
+                    <input type="text" name="" id="" placeholder="Your name">
+                    <label for="text" class="label">Förnamn</label>
+                    
+                    <input type="text" name="" id="" placeholder="Your surname">
+                    <label for="text" class="label">Efternamn</label>
+                            
+                    <input type="text" name="" id="" placeholder="Your adress">
+                    <label for="text" class="label">Gatuadress</label>
+                      
+                    <input type="number" name="" id="" placeholder="Your postaladress"> 
+                    <label for="number" class="label">Postadress</label> 
             
-            
-            <label for="email">Mailadress</label> 
-            <input type="email" placeholder="Your Email">
-             
-                
+                    <input type="email" name="email" id="" placeholder="Your Email" required autofocus class="input">
+                    <label for="email" class="label" >Mailadress</label> 
 
-               
-            <label for="password">Lösenord</label>  
-            <input type="password" placeholder="Your password">
-            
-            
-            <textarea name="" id="" cols="30" rows="5"></textarea>
-
-            <input type="checkbox" name="uppgifter" value="ja">
-            <label for="uppgifter">Är du okej med att vi sparar dina uppgifter?</label>
-            
-            
-            <a href=""><button type="button" class="skickaknapp">Skicka</button></a>
-            
-         
-            
-            <section class="anka">
-                <img src="images/anka.png" alt="Bild av en badanka" width="400px">
+                    <input type="password" name="password" id="password" placeholder="Skriv in ditt lösenord" required minlength="10">
+                    <label for="password" class="label" >Lösenord</label> 
+                </div>
             </section>
+
+                <div class="fråga-2">
+                    <label for="uppgifter" >Är du okej med att vi sparar dina uppgifter?</label>
+                    <input type="checkbox" class="checkbox" name="uppgifter" value="ja">
+                </div>
+                <div class="fråga-3">
+                    <h3>Något övrigt du vill tillägga?</h3>
+                    <textarea name="" id="" cols="30" rows="5" class="informationsfält"></textarea>
+                    <button type="submit" class="skickaknapp">Skicka</button>
+                </div>
+                  
+            <section class="End">
+                <img src="images/anka.png" alt="Bild av en badanka" width="400px">        
+            </section>
+
         </form>
-       
+
     </body>
+
 </html>
 

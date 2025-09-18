@@ -1,13 +1,8 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-
 .body{
-    display: flexbox;
-    justify-content: center;
+    display: flex;
+    justify-content: start;
     height: 100vh;
+    font-family: "Raleway", sans-serif;
     background: linear-gradient(
     to right,
     rgb(0, 208, 255) 0%,
@@ -16,35 +11,66 @@
     #3940ff 100%);
     border: 30px solid rgb(4, 0, 255);
 }
+
 .form{
-    width: 23%;
+    display: flex;
     flex-direction: column;
-    justify-self: 60px;
-    justify-content: 100px;
-    justify-items: 140px;}
+    width: 23%;
+    margin-left: 180px;}
     
 
 .titel{
-    margin-left: 100px;
-    margin-top: 40px;
-    font-family: "Raleway", sans-serif;
+    margin-top: 100px;
+    margin-left: 200px;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;}
 
 .h2{
-    width: 500px;
+    width: 680px;
     font-family: "Poppins", sans-serif;
     font-weight: 350;
     font-style: normal;
-    margin-left: 100px}
-  
+    margin-bottom: 30px;}
+
 .text{
     width: 500px;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
     font-style: normal;
-    margin-left: 100px}
+    margin-left: 73px
+}
+
+.middle{
+    margin-left: 182px;
+}
+
+.label{
+    margin-left: 10px;
+}
+
+.fråga-1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600; 
+    font-size: large; 
+}
+
+.fråga-2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600; 
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 126px;
+    width: 450px; 
+} 
+
+.fråga-3{ 
+    font-family: "Raleway", sans-serif;
+    font-weight: 600; 
+    font-size: large;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 170px;
+}
 
 .skickaknapp{
     background-color: #ffffff;
@@ -59,13 +85,14 @@
     height: 50px;
     width: 90px;
     margin-left: 100px;
+}
 
-}   
 .skickaknapp:hover {
     text-decoration: underline;
     background-color: rgba(77, 142, 255, 0.514);
 }
-.anka{
+
+.end{
     display: flex;
     justify-content: center;
 }
